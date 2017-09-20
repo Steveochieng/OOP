@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Learn OOP</title>
+  <script type="text/javascript">
+    
+    class person{
+  constructor(name, age, gender){
+    this.name=name;
+    this.age=age;
+    this.gender=gender;
+  }
+  
+  movement(){
+    alert("I am Stephen Ochieng");
+  }
+  
+  speak(){
+    alert("hello am " + this.name + " my age is " + this.age + " and I am " + this.gender);
+    
+  }
+}
+
+var jonte= new person("jonte ",  25 , "married");
+jonte.speak();
+
+class rectangle{
+  constructor(l,w){
+    this.l=l;
+    this.w=w;
+  }
+  
+  area(){
+    var area = this.l * this.w;
+    return area;
+  }
+ 
+}
+
+var myRec= new rectangle( 5, 6 );
+myRec.area();
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>
